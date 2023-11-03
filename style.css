@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin: 20px 35rem;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+#winner-message {
+  font-size: 24px;
+}
+
+#restart-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
